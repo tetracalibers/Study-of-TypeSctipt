@@ -5,14 +5,8 @@
   "author": "tomixy",
   "homepage": "https://github.com/tetracalibers/functionalts/tree/main/package/hit-and-blow#readme",
   "license": "ISC",
-  "main": "src/index.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "src"
-  ],
+  "main": "./src/index.ts",
+  "console": "integratedTerminal",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tetracalibers/Study-of-TypeSctipt.git"

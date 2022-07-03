@@ -1,5 +1,9 @@
-const sayHello = (name: string) => {
-  return `Hello ${name}`;
-}
+import { promptInput } from './util/dialogue'
 
-console.log(sayHello('tomixy'))
+(async () => {
+  const name = await promptInput('名前を入力してください')
+  console.log(name)
+  const age = await promptInput('年齢を入力してください')
+  console.log(age)
+  process.exit()
+})()

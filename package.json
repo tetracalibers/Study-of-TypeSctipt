@@ -19,17 +19,9 @@
     "build": "npm-run-all clean tsc",
     "start": "node dist/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tetracalibers/functionalts.git"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tetracalibers/functionalts/issues"
-  },
-  "homepage": "https://github.com/tetracalibers/functionalts#readme",
   "devDependencies": {
     "@types/node": "^18.0.1",
     "lerna": "^5.1.6",
