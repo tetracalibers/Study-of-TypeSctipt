@@ -1,5 +1,5 @@
 export const printLine = (text: string, breakLine: boolean = true): void => {
-  process.stdout.write(`${text}${breakLine ? '\n' : ''}`);
+  process.stdout.write(text + (breakLine ? '\n' : ''))
 }
 
 export const promptInput = async (text: string): Promise<string> => {
