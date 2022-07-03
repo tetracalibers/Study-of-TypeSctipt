@@ -18,7 +18,14 @@
     "url": "git+https://github.com/tetracalibers/Study-of-TypeSctipt.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts",
+    "clean": "rimraf dist/*",
+    "tsc": "tsc",
+    "build": "npm-run-all clean tsc",
+    "start": "node dist/index.js",
+    "ope": "yarn build && yarn start"
   },
   "bugs": {
     "url": "https://github.com/tetracalibers/Study-of-TypeSctipt/issues"
