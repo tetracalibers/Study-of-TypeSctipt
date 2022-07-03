@@ -1,0 +1,26 @@
+{
+  "name": "hit-and-blow",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "tomixy",
+  "homepage": "https://github.com/tetracalibers/functionalts/tree/main/package/hit-and-blow#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetracalibers/Study-of-TypeSctipt.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tetracalibers/Study-of-TypeSctipt/issues"
+  }
+}
